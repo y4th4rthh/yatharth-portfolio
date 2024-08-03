@@ -67,7 +67,7 @@ const Footer = () => {
     onClick={toggleDarkMode}
     className={`transition ease-in-out duration-300 rounded-md ${isDarkMode ? 'text-black' : 'text-gray-200'}`}
     aria-label="Toggle dark mode"
-      style={{marginTop: '4px'}}
+      style={{marginBottom: '4px'}}
 >
     {isDarkMode ? <BsMoon className='text-xl' /> : <BsSun className='text-xl' />}
 </button>
