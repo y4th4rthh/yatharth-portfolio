@@ -65,6 +65,8 @@ const Footer = () => {
                     </a>
                     <a
                         href="#"
+                         target='_blank'
+                        rel="noreferrer"
                         onClick={toggleDarkMode}
                         className={`transition ease-in-out duration-300 rounded-md  ${isDarkMode ? 'text-black' : 'text-gray-200'}`}
                     >
