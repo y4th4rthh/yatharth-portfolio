@@ -63,14 +63,14 @@ const Footer = () => {
                     >
                         <FaGithub className='text-xl' />
                     </a>
-                    <a
-                        href="#"
-                        role='button'
-                        onClick={toggleDarkMode}
-                        className={`transition ease-in-out duration-300 rounded-md  ${isDarkMode ? 'text-black' : 'text-gray-200'}`}
-                    >
-                        {isDarkMode ? <BsSun className='text-xl' /> : <BsMoon className='text-xl' />}
-                    </a>
+                   <button
+    onClick={toggleDarkMode}
+    className={`transition ease-in-out duration-300 rounded-md ${isDarkMode ? 'text-black' : 'text-gray-200'}`}
+    aria-label="Toggle dark mode"
+>
+    {isDarkMode ? <BsSun className='text-xl' /> : <BsMoon className='text-xl' />}
+</button>
+
 
                 </div>
 
