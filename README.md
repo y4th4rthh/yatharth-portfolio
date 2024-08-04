@@ -13,8 +13,8 @@
 ### `npm install`
 This will create the node_modules folder and package-lock.json.
 
-### `npm run dev`
-This will start your Vite app.
+### `npm start`
+This will start your React app.
 
 Now go to [http://localhost:3000/](http://localhost:5173/) to visit your app.
 
