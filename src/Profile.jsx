@@ -52,7 +52,7 @@ const Profile = () => {
                         <h1 className="text-7xl font-bold my-4 dark:text-gray-900 text-gray-100">{text}</h1>
                         <p className="text-2xl mb-4 dark:text-gray-800 text-gray-200">Frontend Developer</p>
                         <div className="flex justify-center gap-4">
-                            <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition" onClick={() => window.location.href = 'https://drive.google.com/file/d/1QZZ7lIp4r1uA8okn4rMESczBCrF2t110/view?usp=drive_link'}
+                            <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition" onClick={() => window.location.href = 'https://drive.google.com/file/d/1rkYu9n__zS32BYHW7zDO6pj10Jws-6bb/view?usp=drive_link'}
                             >
                                 Download CV
                             </button>
