@@ -47,7 +47,7 @@ const About = () => {
                                 Driven by a strong enthusiasm for learning 📚, I am a highly motivated computer engineering graduate eager to excel in challenging technical environments 🚀. I am keen to contribute to innovative projects that push the boundaries of technology 🛠️ while continuously expanding my knowledge and skill set 🌟.</p>
 
 
-                            <a href='https://drive.google.com/file/d/1QZZ7lIp4r1uA8okn4rMESczBCrF2t110/view?usp=drive_link' >
+                            <a href='https://drive.google.com/file/d/1rkYu9n__zS32BYHW7zDO6pj10Jws-6bb/view?usp=drive_link' >
                                 <button className='bg-blue-500 text-white p-3 rounded-md hover:bg-blue-300'>
                                     View Resume →
                                 </button>
