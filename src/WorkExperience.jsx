@@ -38,7 +38,7 @@ const WorkExperience = () => {
         <VerticalTimelineElement
           className="relative vertical-timeline-element--work"
           date="Jun 2018 - Dec 2019"
-          iconStyle={{ background: '#000000' }} // Black background for icon
+          iconStyle={{ background: '#000000' }} 
           icon={
             <a className='flex justify-center items-center w-full h-full' href='https://websolutions.com' target='_blank' rel="noopener noreferrer">
               <img
@@ -63,7 +63,7 @@ const WorkExperience = () => {
         <VerticalTimelineElement
           className="relative vertical-timeline-element--work"
           date="Jun 2018 - Dec 2019"
-          iconStyle={{ background: '#000000' }} // Black background for icon
+          iconStyle={{ background: '#000000' }} 
           icon={
             <a className='flex justify-center items-center w-full h-full' href='https://websolutions.com' target='_blank' rel="noopener noreferrer">
               <img
