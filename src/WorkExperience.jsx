@@ -28,7 +28,7 @@ const WorkExperience = () => {
         >
           <div className='p-4  dark:bg-white bg-gray-800 dark:text-black text-gray-100'>
             <h3 className='text-2xl font-bold'>Software Engineer</h3>
-            <p className='text-lg font-semibold'>Tech Corp</p>
+            <p className='text-lg font-semibold'>Tech</p>
             <ul className='mt-5 list-disc ml-5 space-y-2'>
               <li className='text-sm'>Developed new features for the main product.</li>
               <li className='text-sm'>Led the migration to a new tech stack.</li>
@@ -53,7 +53,7 @@ const WorkExperience = () => {
         >
           <div className='p-4  dark:bg-white bg-gray-800 dark:text-black text-gray-100'>
             <h3 className='text-2xl font-bold'>Junior Developer</h3>
-            <p className='text-lg font-semibold'>Web Solutions</p>
+            <p className='text-lg font-semibold'>Tech</p>
             <ul className='mt-5 list-disc ml-5 space-y-2'>
               <li className='text-sm'>Assisted in the development of client websites.</li>
               <li className='text-sm'>Optimized performance for existing applications.</li>
@@ -78,7 +78,7 @@ const WorkExperience = () => {
         >
           <div className='p-4  dark:bg-white bg-gray-800 dark:text-black text-gray-100'>
             <h3 className='text-2xl font-bold'>Junior Developer</h3>
-            <p className='text-lg font-semibold'>Web Solutions</p>
+            <p className='text-lg font-semibold'>Tech</p>
             <ul className='mt-5 list-disc ml-5 space-y-2'>
               <li className='text-sm'>Assisted in the development of client websites.</li>
               <li className='text-sm'>Optimized performance for existing applications.</li>
