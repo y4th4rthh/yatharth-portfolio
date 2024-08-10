@@ -31,7 +31,7 @@ const Nav = () => {
         </div>
 
         <div className="sm:hidden">
-          <button onClick={toggleMobileMenu} className="text-xl focus:outline-none">
+          <button onClick={toggleMobileMenu} className="text-3xl focus:outline-none">
             {isMobileMenuOpen ? '✕' : '☰'}
           </button>
         </div>
