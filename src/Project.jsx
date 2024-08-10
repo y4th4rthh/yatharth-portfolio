@@ -7,7 +7,7 @@ const Project = () => {
     return (
         <div>
             {/* Projects Section */}
-            <section id="projects" className="py-20 lg:py-40 px-3 lg:px-40 dark:bg-gray-50 bg-gray-800">
+            <section id="projects" className="py-20 lg:py-40 px-3 lg:px-40 dark:bg-gray-50 bg-gray-800 font-rubik">
                 <div className="text-center mb-10">
                     <p className="text-lg font-semibold dark:text-gray-800 text-gray-200">Some Of My Recent Works</p>
                     <h1 className="text-5xl font-bold my-4 dark:text-gray-900 text-gray-100">Projects</h1>
