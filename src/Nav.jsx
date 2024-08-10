@@ -1,43 +1,55 @@
-import React from 'react';
+import React, { useState ,useEffect} from 'react';
 
 const Nav = () => {
-  const toggleMenu = () => {
-    const menu = document.querySelector('.menu-links');
-    const icon = document.querySelector('.hamburger-icon');
-    menu.classList.toggle('open');
-    icon.classList.toggle('open');
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
+
+
   return (
-    <div>
-      {/* Navigation */}
-      <nav className="flex justify-around items-center h-16 dark:bg-white bg-gray-800 shadow-md">
-        <div className="text-2xl font-bold dark:text-black text-white">My Portfolio</div>
-        <ul className="hidden lg:flex gap-8 text-xl">
-          <li><a href="#about" className="dark:hover:text-gray-500 hover:text-gray-300 dark:text-black text-gray-200">About</a></li>
-          <li><a href="#experience" className="dark:hover:text-gray-500 hover:text-gray-300 dark:text-black text-gray-200">Experience</a></li>
-          <li><a href="#projects" className="dark:hover:text-gray-500 hover:text-gray-300 dark:text-black text-gray-200">Projects</a></li>
-          <li><a href="#contact" className="dark:hover:text-gray-500 hover:text-gray-300 dark:text-black text-gray-200">Contact</a></li>
-        </ul>
-      </nav>
-      <nav className="lg:hidden flex justify-between items-center p-4 dark:bg-white bg-gray-800">
-        <div className="text-2xl font-bold dark:text-black text-white">Patel Yatharth</div>
-        <div className="hamburger-menu relative">
-          <div className="hamburger-icon flex flex-col justify-between h-6 w-8 cursor-pointer" onClick={toggleMenu}>
-            <span className="block w-full h-1 dark:bg-black bg-white"></span>
-            <span className="block w-full h-1 dark:bg-black bg-white"></span>
-            <span className="block w-full h-1 dark:bg-black bg-white"></span>
-          </div>
-          <ul className="menu-links absolute right-0 dark:bg-white bg-gray-800 mt-2 w-48 overflow-hidden transition-max-height duration-300 z-50">
-            <li><a href="#about" className="block p-4 text-center dark:text-black text-gray-200" onClick={toggleMenu}>About</a></li>
-            <li><a href="#experience" className="block p-4 text-center dark:text-black text-gray-200" onClick={toggleMenu}>Experience</a></li>
-            <li><a href="#projects" className="block p-4 text-center dark:text-black text-gray-200" onClick={toggleMenu}>Projects</a></li>
-            <li><a href="#contact" className="block p-4 text-center dark:text-black text-gray-200" onClick={toggleMenu}>Contact</a></li>
+    <nav className="bg-gray-800 p-4 dark:bg-white dark:text-black  text-white  w-full z-10 top-0 font-rubik" style={{ cursor: 'default' }}>
+      <div className="mx-auto text-center flex w-5/6 justify-between font-bold dark:text-black text-white">
+        
+        {/* <div className="hidden sm:flex space-x-4 items-center gap-6 text-md font-semibold">
+          <Link to='#profile'>Home</Link>
+          <Link to='#about'>About</Link>
+        </div> */}
+        <div className="text-3xl sm:text-2xl font-extrabold">
+          <a href="#profile">Patel Yatharth</a>
+        </div>
+        <div className="hidden sm:flex space-x-4 items-center gap-6 text-md font-semibold">
+          <a href="#about" className="dark:hover:text-gray-500 hover:text-gray-300 dark:text-black text-gray-200">About</a>
+          <a href="#experience" className="dark:hover:text-gray-500 hover:text-gray-300 dark:text-black text-gray-200">Experience</a>
+          <a href="#projects" className="dark:hover:text-gray-500 hover:text-gray-300 dark:text-black text-gray-200">Projects</a>
+         <a href="#contact" className="dark:hover:text-gray-500 hover:text-gray-300 dark:text-black text-gray-200">Contact</a>
+        </div>
+
+        <div className="sm:hidden">
+          <button onClick={toggleMobileMenu} className="text-xl focus:outline-none">
+            {isMobileMenuOpen ? '✕' : '☰'}
+          </button>
+        </div>
+        <div className={`sm:hidden fixed top-0 z-50 left-0 w-full h-full bg-gray-800 text-white dark:bg-white  text-center ${isMobileMenuOpen ? 'flex flex-col items-center justify-center' : 'hidden'}`}>
+          <button onClick={closeMobileMenu} className="text-xl absolute top-4 right-4 focus:outline-none dark:text-black">
+            ✕
+          </button>
+          <ul className="font-medium text-2xl space-y-4">
+             <li><a href="#about" className="block p-4 text-center dark:text-black text-gray-200" onClick={closeMobileMenu}>About</a></li>
+            <li><a href="#experience" className="block p-4 text-center dark:text-black text-gray-200" onClick={closeMobileMenu}>Experience</a></li>
+            <li><a href="#projects" className="block p-4 text-center dark:text-black text-gray-200" onClick={closeMobileMenu}>Projects</a></li>
+            <li><a href="#contact" className="block p-4 text-center dark:text-black text-gray-200" onClick={closeMobileMenu}>Contact</a></li>
+          
           </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
-}
+};
 
 export default Nav;
