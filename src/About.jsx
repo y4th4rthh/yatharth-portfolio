@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div>
             {/* About Section */}
-            <section id="about" className="py-20 lg:py-36 px-5 lg:px-40 dark:bg-gray-50 bg-gray-800">
+            <section id="about" className="py-20 lg:py-36 px-5 lg:px-40 dark:bg-gray-50 bg-gray-800 font-rubik">
                 <div className="text-center mb-10">
                     <p className="text-lg font-semibold dark:text-black text-gray-200">Get To Know More</p>
                     <h1 className="text-5xl font-bold my-4 dark:text-black text-gray-200">About Me</h1>
