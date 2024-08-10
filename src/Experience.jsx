@@ -5,7 +5,7 @@ const Experience = () => {
     return (
         <div>
             {/* Experience Section */}
-            <section id="experience" className="py-20 lg:py-40 px-5 lg:px-40 dark:bg-gray-50 bg-gray-900">
+            <section id="experience" className="py-20 lg:py-40 px-5 lg:px-40 dark:bg-gray-50 bg-gray-900 font-rubik">
                 <div className="text-center mb-10">
                     <p className="text-lg font-semibold dark:text-gray-800 text-gray-200">Explore My</p>
                     <h1 className="text-5xl font-bold my-4 dark:text-gray-900 text-gray-100">Experience</h1>
