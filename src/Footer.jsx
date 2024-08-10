@@ -23,7 +23,7 @@ const Footer = () => {
 
     return (
         <div className={`p-4 ${isDarkMode ? 'bg-white' : 'bg-gray-900'}`} style={{ cursor: 'default' }}>
-            <div className='flex justify-between flex-wrap gap-4'>
+            <div className='flex justify-between flex-wrap gap-4 font-rubik'>
                 <p className={`text-center w-full sm:w-auto font-light ${isDarkMode ? 'text-black' : 'text-gray-200'}`}>
                     © {year} Yatharth. All rights reserved.
                 </p>
