@@ -14,7 +14,7 @@ const Experience = () => {
                     <div className="flex flex-col justify-center lg:flex-row gap-8">
                         <div className="flex-1 p-8 dark:bg-white bg-gray-800 rounded-2xl shadow-lg">
                             <h2 className="text-2xl font-semibold mb-4 text-center dark:text-gray-900 text-gray-100">Frontend Techstacks</h2>
-                            <div className="flex flex-wrap justify-center gap-4">
+                            <div className="flex flex-wrap justify-between gap-4">
                                 <div className="flex items-center gap-4">
                                     <img src={checkmark} alt="Experience icon" className="w-6 h-6" />
                                     <div>
@@ -62,7 +62,7 @@ const Experience = () => {
 
                         <div className="flex-1 p-8 dark:bg-white bg-gray-800 rounded-2xl shadow-lg">
                             <h2 className="text-2xl font-semibold mb-4 text-center dark:text-gray-900 text-gray-100">Backend Techstacks</h2>
-                            <div className="flex flex-wrap justify-center gap-4">
+                            <div className="flex flex-wrap justify-between gap-4">
                                 <div className="flex items-center gap-4">
                                     <img src={checkmark} alt="Experience icon" className="w-6 h-6" />
                                     <div>
@@ -97,7 +97,7 @@ const Experience = () => {
 
                         <div className="flex-1 p-8 dark:bg-white bg-gray-800 rounded-2xl shadow-lg">
                             <h2 className="text-2xl font-semibold mb-4 text-center dark:text-gray-900 text-gray-100">Known Databases</h2>
-                            <div className="flex flex-wrap justify-center gap-4">
+                            <div className="flex flex-wrap justify-between gap-4">
                                 <div className="flex items-center gap-4">
                                     <img src={checkmark} alt="Experience icon" className="w-6 h-6" />
                                     <div>
