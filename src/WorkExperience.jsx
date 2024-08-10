@@ -6,7 +6,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const WorkExperience = () => {
   return (
-    <div className='experience dark:bg-white bg-gray-900  dark:text-black text-gray-100 pt-4 sm:pt-16 overflow-x-hidden pb-4' id='experience'>
+    <div className='experience dark:bg-white bg-gray-900  dark:text-black text-gray-100 pt-4 sm:pt-16 overflow-x-hidden pb-4 font-rubik' id='experience'>
       <div className='pt-12 sm:px-16 text-center mb-6'>
         <p className='font-semibold text-lg dark:text-gray-900 text-gray-100'>MY JOURNEY SO FAR.</p>
         <h2 className='text-4xl sm:text-5xl font-extrabold mt-2 dark:text-black text-gray-100'>Work Experience.</h2>
