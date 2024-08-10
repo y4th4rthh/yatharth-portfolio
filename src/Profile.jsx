@@ -20,7 +20,7 @@ const Profile = () => {
     }, []);
 
     return (
-        <div className="relative h-screen dark:bg-white bg-gray-900 overflow-hidden">
+        <div className="relative h-screen dark:bg-white bg-gray-900 overflow-hidden font-rubik">
             {/* Background Circles */}
             <ul className="absolute inset-0 flex justify-center items-center">
                 {Array.from({ length: 10 }).map((_, i) => {
