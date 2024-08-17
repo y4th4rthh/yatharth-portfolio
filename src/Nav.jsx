@@ -36,7 +36,7 @@ const Nav = () => {
           </button>
         </div>
         <div className={`sm:hidden fixed top-0 z-50 left-0 w-full h-full bg-gray-800 text-white dark:bg-white  text-center ${isMobileMenuOpen ? 'flex flex-col items-center justify-center' : 'hidden'}`}>
-          <button onClick={closeMobileMenu} className="text-xl absolute top-4 right-4 focus:outline-none dark:text-black">
+          <button onClick={closeMobileMenu} className="text-3xl absolute top-10 right-10 focus:outline-none dark:text-black">
             ✕
           </button>
           <ul className="font-medium text-2xl space-y-4">
