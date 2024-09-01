@@ -13,7 +13,7 @@ const Nav = () => {
 
 
   return (
-    <nav className="bg-gray-800 p-4 dark:bg-white dark:text-black  text-white  w-full z-10 top-0 font-rubik" style={{ cursor: 'default' }}>
+    <nav className="bg-gray-800 p-4 dark:bg-gray-100 dark:text-black  text-white  w-full z-10 top-0 font-rubik" style={{ cursor: 'default' }}>
       <div className="mx-auto text-center flex w-5/6 justify-between font-bold dark:text-black text-white">
         
         {/* <div className="hidden sm:flex space-x-4 items-center gap-6 text-md font-semibold">
