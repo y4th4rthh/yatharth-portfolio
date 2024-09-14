@@ -1,8 +1,6 @@
 # yatharth-portfolio
 
-## Can run the Project through the below link:
-
-### `https://main--yatharthsportfolio.netlify.app/`
+Access the live project: [https://main--yatharthsportfolio.netlify.app/](https://main--yatharthsportfolio.netlify.app/)
 
 ## Cloning and Running the Vite Project Locally
 
