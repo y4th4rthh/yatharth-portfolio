@@ -51,7 +51,7 @@ const Project = () => {
     <div className="w-full lg:w-1/3  dark:bg-white bg-gray-900 rounded-2xl shadow-lg">
         <img src={project4} alt="I Can Compile ahh Editor" className="w-full h-64 object-cover rounded-t-2xl mb-4 border dark:border-gray-300 border-gray-700" />
         <div className="sm:p-8 p-4">
-             <h2 className="text-xl font-semibold mb-4 dark:text-gray-900 text-gray-100">I Can Compile ahh Editor</h2>
+             <h2 className="text-xl font-semibold mb-4 dark:text-gray-900 text-gray-100">"I Can Compile" ahh Editor</h2>
         <p className="dark:text-gray-700 text-gray-300 mb-4">
             • "I Can Compile ahh Editor" is an online text editor that supports Python, HTML, and CSS code compilation. It offers real-time preview, syntax highlighting, file management, and a responsive design. Users can securely write, compile, and share code, making it perfect for collaborative projects.
         </p>
