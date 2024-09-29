@@ -13,7 +13,7 @@ const Project = () => {
                     <p className="text-lg font-semibold dark:text-gray-800 text-gray-200">Some Of My Recent Works</p>
                     <h1 className="text-5xl font-bold my-4 dark:text-gray-900 text-gray-100">Projects</h1>
                 </div>
-                <div className="flex flex-col lg:flex-row mb-4 gap-8">
+                <div className="flex flex-col justify-center lg:flex-row mb-4 gap-8">
     <div className="w-full lg:w-1/3  dark:bg-white bg-gray-900 rounded-xl shadow-lg">
         <img src={project1} alt="Gujarat Entrance Exam" className="w-full h-64 object-cover rounded-2xl mb-4 border dark:border-gray-300 border-gray-700" />
         <div className="sm:p-8 p-2">
@@ -36,7 +36,7 @@ const Project = () => {
     </div>
 </div>
 
-<div className="flex flex-col lg:flex-row mt-4 gap-8">
+<div className="flex flex-col justify-center lg:flex-row mt-4 gap-8">
     <div className="w-full lg:w-1/3 sm:p-8 p-2 dark:bg-white bg-gray-900 rounded-2xl shadow-lg">
         <img src={project3} alt="Time Guardian" className="w-full h-64 object-cover rounded-2xl mb-4 border dark:border-gray-300 border-gray-700" />
         <h2 className="text-xl font-semibold mb-4 dark:text-gray-900 text-gray-100">Time Guardian</h2>
