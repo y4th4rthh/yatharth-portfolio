@@ -51,7 +51,7 @@ const Project = () => {
     <div className="w-full lg:w-1/3  dark:bg-white bg-gray-900 rounded-2xl shadow-lg">
         <img src={project4} alt="I Can Compile ahh Editor" className="w-full h-64 object-cover rounded-t-2xl mb-4 border dark:border-gray-300 border-gray-700" />
         <div className="sm:p-8 p-4">
-             <h2 className="text-xl font-semibold mb-4 dark:text-gray-900 text-gray-100">"I Can Compile" ahh Editor</h2>
+             <h2 className="text-xl font-semibold mb-4 dark:text-gray-900 text-gray-100">Code Wizard</h2>
         <p className="dark:text-gray-700 text-gray-300 mb-4">
             • Code Wizard is an innovative online platform offering comprehensive tutorials for HTML, CSS, Python, React, Node.js, and Tailwind CSS. It features a user-friendly built-in text editor, allowing users to write and test the code efficiently in one convenient space.
         </p>
