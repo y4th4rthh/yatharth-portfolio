@@ -42,7 +42,7 @@ const Project = () => {
         <div className="sm:p-8 p-4">
              <h2 className="text-xl font-semibold mb-4 dark:text-gray-900 text-gray-100">Time Guardian</h2>
         <p className="dark:text-gray-700 text-gray-300 mb-4">
-            • Time Guardian is a comprehensive employee management system designed to streamline administrative tasks and enhance workplace efficiency using modern technologies. It offers secure work hour monitoring and fosters transparent communication between managers and employees.
+            • Time Guardian is a comprehensive employee management system designed to streamline administrative tasks and enhance workplace efficiency using modern technologies. It offers secure work hour monitoring and fosters communication between managers and employees.
         </p>
         <a href="https://github.com/y4th4rthh/time-guardian" className="dark:text-blue-500 text-blue-300 dark:hover:text-blue-700 hover:text-blue-400">View Project</a>
         </div>
@@ -53,7 +53,7 @@ const Project = () => {
         <div className="sm:p-8 p-4">
              <h2 className="text-xl font-semibold mb-4 dark:text-gray-900 text-gray-100">"I Can Compile" ahh Editor</h2>
         <p className="dark:text-gray-700 text-gray-300 mb-4">
-            • Code Wizard is an innovative online platform offering comprehensive tutorials for HTML, CSS, Python, React, Node.js, and Tailwind CSS. It features a user-friendly built-in text editor, allowing users to write and test their code efficiently in one convenient space.
+            • Code Wizard is an innovative online platform offering comprehensive tutorials for HTML, CSS, Python, React, Node.js, and Tailwind CSS. It features a user-friendly built-in text editor, allowing users to write and test the code efficiently in one convenient space.
         </p>
         <a href="https://github.com/y4th4rthh/text-editor-app" className="dark:text-blue-500 text-blue-300 dark:hover:text-blue-700 hover:text-blue-400">View Project</a>
         </div>
