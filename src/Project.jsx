@@ -53,7 +53,7 @@ const Project = () => {
         <div className="sm:p-8 p-4">
              <h2 className="text-xl font-semibold mb-4 dark:text-gray-900 text-gray-100">"I Can Compile" ahh Editor</h2>
         <p className="dark:text-gray-700 text-gray-300 mb-4">
-            • "I Can Compile ahh Editor" is an online text editor that supports Python, HTML, and CSS code compilation. It offers real-time preview, syntax highlighting, file management, and a responsive design. Users can securely write, compile, and share code, making it perfect for collaborative projects.
+            • Code Wizard is an innovative online platform offering comprehensive tutorials for HTML, CSS, Python, React, Node.js, and Tailwind CSS. It features a user-friendly built-in text editor, allowing users to write and test their code efficiently in one convenient space.
         </p>
         <a href="https://github.com/y4th4rthh/text-editor-app" className="dark:text-blue-500 text-blue-300 dark:hover:text-blue-700 hover:text-blue-400">View Project</a>
         </div>
