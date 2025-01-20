@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from './Nav';
 import Profile from './Profile';
 import Experience from './Experience';
+import WorkExperience from './WorkExperience';
 import Projects from './Project';
 import About from './About';
 import Contact from './Contact';
@@ -21,6 +22,8 @@ const App = () => {
       <About/>
 
       <Experience/>
+
+    <WorkExperience/>
 
       <Projects/>
 
