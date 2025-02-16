@@ -79,7 +79,7 @@ const Project = () => {
         <div>
             {/* Projects Section */}
             <section id="projects" className="py-20 lg:py-32 px-4 lg:px-16 dark:bg-gradient-to-br dark:from-gray-50 dark:to-gray-100 bg-gradient-to-br from-gray-800 to-gray-900 font-rubik">
-                <div className="container mx-auto flex-col gap-4">
+                <div className="container mx-auto flex-col gap-4 justify-center items-center">
                     <div className="text-center mb-16">
                         <p className="text-lg font-medium dark:text-gray-100 text-blue-400 mb-2">Featured Work</p>
                         <h1 className="text-4xl md:text-5xl font-bold my-4 dark:text-gray-900 text-gray-100">Recent Projects</h1>
