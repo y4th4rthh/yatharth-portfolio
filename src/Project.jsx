@@ -53,7 +53,7 @@
 //         <div className="sm:p-8 p-4">
 //              <h2 className="text-xl font-semibold mb-4 dark:text-gray-900 text-gray-100">Code Wizard</h2>
 //         <p className="dark:text-gray-700 text-gray-300 mb-4">
-//             • Code Wizard is an innovative online platform offering comprehensive tutorials for HTML, CSS, Python, React, Node.js, and Tailwind CSS. It features a user-friendly built-in text editor, allowing users to write and test the code efficiently in one convenient space.
+//             • An innovative platform offering tutorials for various web technologies, featuring a built-in editor for writing, testing, and refining code efficiently—all in one place.
 //         </p>
 //         <a href="https://github.com/y4th4rthh/text-editor-app" className="dark:text-blue-500 text-blue-300 dark:hover:text-blue-700 hover:text-blue-400">View Project</a>
 //         </div>
