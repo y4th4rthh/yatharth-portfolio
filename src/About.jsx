@@ -8,6 +8,7 @@ const About = () => {
                 <div className="text-center mb-10">
                     <p className="text-lg font-semibold dark:text-black text-gray-200">Get To Know More</p>
                     <h1 className="text-5xl font-bold my-4 dark:text-black text-gray-200">About Me</h1>
+                    <div className="w-24 h-1 bg-gray-100 mx-auto mt-4 rounded-full"></div>
                 </div>
                 <div className="flex flex-col lg:flex-row gap-8 justify-center">
                     <div className="flex flex-col gap-8 justify-center">
