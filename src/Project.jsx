@@ -81,12 +81,12 @@ const Project = () => {
             <section id="projects" className="py-20 lg:py-32 px-4 lg:px-16 dark:bg-gradient-to-br dark:from-gray-50 dark:to-gray-100 bg-gradient-to-br from-gray-800 to-gray-900 font-rubik">
                 <div className="container mx-auto">
                     <div className="text-center mb-16">
-                        <p className="text-lg font-medium dark:text-gray-100 text-blue-400 mb-2">FEATURED WORK</p>
+                        <p className="text-lg font-medium dark:text-gray-100 text-blue-400 mb-2">Featured Work</p>
                         <h1 className="text-4xl md:text-5xl font-bold my-4 dark:text-gray-900 text-gray-100">Recent Projects</h1>
                         <div className="w-24 h-1 bg-gray-100 mx-auto mt-4 rounded-full"></div>
                     </div>
                     
-                    <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
+                    <div className="w-full max-w-3xl grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-10 mb-16">
                         {/* Project 1 */}
                         <div className="group overflow-hidden rounded-xl shadow-lg transform transition duration-300 hover:-translate-y-2 hover:shadow-xl dark:bg-white bg-gray-900 dark:bg-opacity-90 bg-opacity-90 backdrop-blur-sm">
                             <div className="relative overflow-hidden">
