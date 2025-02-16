@@ -81,7 +81,7 @@ const Project = () => {
             <section id="projects" className="py-20 lg:py-32 px-4 lg:px-16 flex justify-center items-center dark:bg-gradient-to-br dark:from-gray-50 dark:to-gray-100 bg-gradient-to-br from-gray-800 to-gray-900 font-rubik">
                 <div className="w-full max-w-4xl mx-auto">
                     <div className="text-center mb-16">
-                        <p className="text-lg font-medium dark:text-gray-100 text-blue-400 mb-2">Featured Work</p>
+                        <p className="text-lg font-medium text-gray-100 mb-2">Featured Work</p>
                         <h1 className="text-4xl md:text-5xl font-bold my-4 dark:text-gray-900 text-gray-100">Recent Projects</h1>
                         <div className="w-24 h-1 bg-gray-100 mx-auto mt-4 rounded-full"></div>
                     </div>
@@ -172,7 +172,7 @@ const Project = () => {
                                 </div>
                                 <h2 className="text-xl md:text-2xl font-bold mb-4 dark:text-gray-900 text-gray-100">Code Wizard</h2>
                                 <p className="dark:text-gray-700 text-gray-300 mb-6 leading-relaxed">
-                                    An innovative platform offering tutorials for various web technologies with a built-in editor for writing and testing code in one place.
+                                    An innovative platform offering tutorials for various web technologies, featuring a built-in editor for writing, testing, and refining code efficiently—all in one place.
                                 </p>
                                 <a href="https://github.com/y4th4rthh/text-editor-app" className="inline-flex items-center dark:text-blue-600 text-blue-400 font-medium group">
                                     View Project 
