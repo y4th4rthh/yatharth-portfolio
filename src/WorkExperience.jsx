@@ -168,7 +168,7 @@ const WorkExperience = () => {
           >
             <div className='p-6 text-gray-100 dark:text-gray-100 group transition-all duration-300 hover:translate-y-[-4px]'>
               <h3 className='text-2xl font-bold transition-colors duration-300'>Web Developer (Intern)</h3>
-              <p className='text-lg font-semibold '>Tech Stack: MERN, Tailwind CSS</p>
+              <p className='text-lg font-semibold '>Consult Anubhav</p>
               <ul className='mt-5 space-y-3'>
                 <li className='flex items-start'>
                   <span className=' mr-2 mt-1'>•</span>
