@@ -6,18 +6,6 @@ import { FiMail } from 'react-icons/fi';
 const Footer = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
 
-    const toggleDarkMode = () => {
-        setIsDarkMode(prevMode => {
-            const newMode = !prevMode;
-            if (newMode) {
-                document.body.classList.add('dark');
-            } else {
-                document.body.classList.remove('dark');
-            }
-            return newMode;
-        });
-    };
-
     const year = new Date().getFullYear();
 
     return (
