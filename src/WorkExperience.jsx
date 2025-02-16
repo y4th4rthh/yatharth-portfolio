@@ -130,7 +130,7 @@ const WorkExperience = () => {
       
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='text-center mb-12'>
-          <p className='font-semibold text-lg dark:text-gray-800 text-gray-300 mb-2'>MY JOURNEY SO FAR</p>
+          <p className='font-semibold text-lg dark:text-gray-800 text-gray-300 mb-2'>My Journey So Far</p>
           <h2 className='text-4xl sm:text-5xl font-extrabold mt-2 dark:text-gray-800 text-white'>
             Work Experience
           </h2>
