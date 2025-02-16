@@ -86,7 +86,7 @@ const Project = () => {
                         <div className="w-24 h-1 bg-blue-500 mx-auto mt-4 rounded-full"></div>
                     </div>
                     
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
+                    <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
                         {/* Project 1 */}
                         <div className="group overflow-hidden rounded-xl shadow-lg transform transition duration-300 hover:-translate-y-2 hover:shadow-xl dark:bg-white bg-gray-900 dark:bg-opacity-90 bg-opacity-90 backdrop-blur-sm">
                             <div className="relative overflow-hidden">
