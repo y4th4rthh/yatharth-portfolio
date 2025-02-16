@@ -121,6 +121,7 @@ import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FaStar } from 'react-icons/fa';
+import { FaStar } from 'react-icons/fa';
 
 const WorkExperience = () => {
   return (
@@ -219,16 +220,27 @@ const WorkExperience = () => {
         /* Dark mode adjustments */
         .dark .vertical-timeline::before {
           background: #e5e7eb;
+          background: #e5e7eb;
         }
+        
+        .dark .vertical-timeline-element-content {
+          background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(243, 244, 246, 0.8));
+          color: #111827;
         
         .dark .vertical-timeline-element-content {
           background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(243, 244, 246, 0.8));
           color: #111827;
         }
         
+        
         .dark .vertical-timeline-element-content-arrow {
           border-right-color: rgba(243, 244, 246, 0.8);
+          border-right-color: rgba(243, 244, 246, 0.8);
         }
+        
+        /* Light mode (dark theme) adjustments */
+        .vertical-timeline::before {
+          background: #374151;
         
         /* Light mode (dark theme) adjustments */
         .vertical-timeline::before {
