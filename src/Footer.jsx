@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { FaGithub, FaTwitter } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { FiMail } from 'react-icons/fi';
-import { BsSun, BsMoon } from 'react-icons/bs'; // Import icons for dark and light mode
 
 const Footer = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
