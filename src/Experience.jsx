@@ -9,6 +9,7 @@ const Experience = () => {
                 <div className="text-center mb-10">
                     <p className="text-lg font-semibold dark:text-gray-800 text-gray-200">Explore My</p>
                     <h1 className="text-5xl font-bold my-4 dark:text-gray-900 text-gray-100">Experience</h1>
+                    <div className="w-24 h-1 bg-gray-100 mx-auto mt-4 rounded-full"></div>
                 </div>
                 <div className="flex flex-col justify-center gap-8">
                     <div className="flex flex-col justify-center lg:flex-row gap-8">
