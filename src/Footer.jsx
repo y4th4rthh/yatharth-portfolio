@@ -4,14 +4,13 @@ import { AiFillLinkedin } from 'react-icons/ai';
 import { FiMail } from 'react-icons/fi';
 
 const Footer = () => {
-    const [isDarkMode, setIsDarkMode] = useState(false);
 
     const year = new Date().getFullYear();
 
     return (
-        <div className={`p-4 ${isDarkMode ? 'bg-gray-100' : 'bg-gray-900'}`} style={{ cursor: 'default' }}>
+        <div className={`p-4 bg-gray-900`} style={{ cursor: 'default' }}>
             <div className='flex justify-between flex-wrap gap-4 font-rubik'>
-                <p className={`text-center w-full sm:w-auto font-light ${isDarkMode ? 'text-black' : 'text-gray-200'}`}>
+                <p className={`text-center w-full sm:w-auto font-light text-gray-200`}>
                     © {year} Yatharth. All rights reserved.
                 </p>
                 <div className='dark:text-black text-gray-200 flex justify-around sm:w-[250px] w-full'>
