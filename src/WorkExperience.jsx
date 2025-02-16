@@ -14,30 +14,30 @@ const WorkExperience = () => {
       <VerticalTimeline className='mt-9'>
         <VerticalTimelineElement
           className="relative vertical-timeline-element--work"
-          date="Jan 2020 - Present"
-          iconStyle={{ background: '#000000' }}
+          date="Jan 2025 - Present"
+          iconStyle={{ background: '#111111',overflow:'hidden',display:'flex',justifyContent:'center',alignItems:'center' }}
           icon={
-            <a className='flex justify-center items-center w-full h-full' href='https://techcorp.com' target='_blank' rel="noopener noreferrer">
+            <a className='' href='https://www.consultanubhav.com/' target='_blank' rel="noopener noreferrer">
               <img
-                src='https://via.placeholder.com/150'
-                alt='Tech Corp'
-                className='w-3/5 h-3/5 object-contain'
+                src='./ca-black.png'
+                alt='CA'
+                className=''
               />
             </a>
           }
         >
           <div className='p-4  dark:bg-white bg-gray-800 dark:text-black text-gray-100'>
-            <h3 className='text-2xl font-bold'>Software Engineer</h3>
-            <p className='text-lg font-semibold'>Tech</p>
+            <h3 className='text-2xl font-bold'>Web Developer (Intern)</h3>
+            <p className='text-lg font-semibold'>Tech Stack: MERN, Tailwind CSS</p>
             <ul className='mt-5 list-disc ml-5 space-y-2'>
-              <li className='text-sm'>Developed new features for the main product.</li>
+              <li className='text-sm'>Worked as a full stack developer on a product GPT2DOCX.</li>
               <li className='text-sm'>Led the migration to a new tech stack.</li>
-              <li className='text-sm'>Collaborated with cross-functional teams.</li>
+              <li className='text-sm'>Collaborated with team for product enhancement.</li>
             </ul>
           </div>
         </VerticalTimelineElement>
         
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="relative vertical-timeline-element--work"
           date="Jun 2018 - Dec 2019"
           iconStyle={{ background: '#000000' }} 
@@ -85,7 +85,7 @@ const WorkExperience = () => {
               <li className='text-sm'>Provided support for troubleshooting issues.</li>
             </ul>
           </div>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
       </VerticalTimeline>
 
       
