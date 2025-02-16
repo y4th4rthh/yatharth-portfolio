@@ -134,6 +134,7 @@ const WorkExperience = () => {
           <h2 className='text-4xl sm:text-5xl font-extrabold mt-2 dark:text-gray-800 text-white'>
             Work Experience
           </h2>
+          <div className="w-24 h-1 bg-gray-100 mx-auto mt-4 rounded-full"></div>
         </div>
 
         <VerticalTimeline className='mt-9'>
